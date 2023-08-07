@@ -63,7 +63,7 @@ public class BluetoothManager
     }
     private void Init()
     {
-        deviceName = "CG5105";
+        deviceName = "HC-07";
 
         try
         {

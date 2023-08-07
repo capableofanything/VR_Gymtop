@@ -74,7 +74,7 @@ public class RollerBall : MonoBehaviour {
             Debug.DrawLine(transform.position, transform.position + direction, Color.red);
             if (Physics.Linecast(transform.position, transform.position + direction, out hit))
             {
-                ViewCamera.transform.position = hit.point;
+                //ViewCamera.transform.position = hit.point;
             }
             else
             {
